@@ -14,6 +14,8 @@ export const packageJson = (pkg: any) => {
                 import: './index.module.js',
                 require: './index.cjs',
             },
+            './index.css': './index.css'
+
         },
         license: 'MIT',
         repository: {
